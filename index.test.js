@@ -11,7 +11,7 @@ test("format first 3 digits from 1234 to (123) 4", () => {
 
 test("format first 7 digits from 1234567 to (123) 456-7", () => {
   const result = formatMorethanSixDigits("1234567");
-  expect(result).toBe("(123)  456-7");
+  expect(result).toBe("(123) 456-7");
 });
 
 test("extract digit by removing all formattings", () => {
